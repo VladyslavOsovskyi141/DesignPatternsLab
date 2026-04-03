@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("1. Singleton:");
         SingletonExample singleton = SingletonExample.getInstance();
-        singleton.sayHello(); // Виведе "Hello"
+        singleton.sayHello();
 
         System.out.println("\n2. Factory:");
         AnimalFactory animalFactory = new AnimalFactory();
