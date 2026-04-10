@@ -18,10 +18,10 @@ public class Main {
         System.out.println("Snake sound: " + snake.makeSound());
 
         System.out.println("\n4. Builder:");
-        MealBuilder builder = new ItalianMealBuilder();
+        MealBuilder builder = new JapaneseMealBuilder();
         MealDirector director = new MealDirector(builder);
         director.constructMeal();
-        System.out.println("Italian meal: " + director.getMeal());
+        System.out.println("Japanese meal: " + director.getMeal());
 
         System.out.println("\n5. Prototype:");
         Person originalPerson = new Person("Fred");
